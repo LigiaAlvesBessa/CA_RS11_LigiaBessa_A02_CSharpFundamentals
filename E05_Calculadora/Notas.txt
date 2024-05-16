@@ -1,0 +1,14 @@
+﻿
+------------
+Calculadora
+------------
+
+Objetivo:
+	Calculadora simples
+
+Funcionamento:
+	Listar as operações (4 básicas)
+	Pedir valores (2 valores)
+	Pedir Operação
+	Realizar o cálculo
+	Mostrar o resultado

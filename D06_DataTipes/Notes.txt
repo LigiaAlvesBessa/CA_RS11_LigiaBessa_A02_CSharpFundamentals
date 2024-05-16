@@ -1,0 +1,18 @@
+﻿----------
+Data Types
+----------
+
+	Values Types (standard)
+		Números: inteiros, decimais
+		Lógico: boolean
+
+		Geridos na stack (zona de memória onde são guardados os values types)
+
+	Reference Types (objetos)
+		Nativos: Console, Convert, ...
+		Formando, Curso, Cliente, ...
+
+		Ficam na heap (zona de memórias onde são guardados os reference types)
+
+		Geridos por um mecanismo chamado garbage collector (GC)
+

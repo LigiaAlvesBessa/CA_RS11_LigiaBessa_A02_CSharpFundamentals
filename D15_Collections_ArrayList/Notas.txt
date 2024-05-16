@@ -1,0 +1,22 @@
+﻿
+--------------------------------
+ESTRUTURAS DE DADOS (em memória)
+--------------------------------
+
+Variáveis
+
+Arrays
+	Vetores (single)
+	Matrizes (multi)
+
+Collections
+	Normal
+	Generic
+
+--------------------------------
+ARRAYLIST
+--------------------------------
+
+ArrayLisrt não é fortemente tipada 
+
+
