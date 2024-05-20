@@ -12,6 +12,7 @@ namespace E24_Collections_ListManipulation_Person
         static void Main(string[] args)
         {
 
+
             Utility.SetUnicodeConsole();
 
 
