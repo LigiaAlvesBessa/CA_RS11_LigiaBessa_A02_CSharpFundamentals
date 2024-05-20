@@ -12,6 +12,7 @@ namespace E24_Collections_ListManipulation_Person
         static void Main(string[] args)
         {
 
+            // Todo MRS: implementar o try.
             Utility.SetUnicodeConsole();
 
 
@@ -19,6 +20,7 @@ namespace E24_Collections_ListManipulation_Person
             List<Person> personList = new List<Person>();
             //List<Person> personToRemove = new List<Person>();
 
+            // Todo MRS: simplificar isto criando o menu através dum dictionary
             Menu menu01 = new Menu(1, "Add person");
             Menu menu02 = new Menu(2, "Insert person in position");
             Menu menu03 = new Menu(3, "Find person by id");
@@ -37,6 +39,7 @@ namespace E24_Collections_ListManipulation_Person
             listMenu.Add(menu07);
             listMenu.Add(menu08);
 
+            // Todo MRS: os nomes devem ser pedidos na consola.
             Person person01 = new Person(1, "Lígia", "939446411", "239906250", "Paços de Ferreira");
             personList.Add(person01);
             Person person02 = new Person(2, "Beatriz", "912345678", "231234567", "Porto");
@@ -55,6 +58,7 @@ namespace E24_Collections_ListManipulation_Person
                 Menu.ListMenu(listMenu);
                 int optionMenu = Menu.ReadOption();
 
+                // Todo MRS: proquê a pausa na consola depois da escolha de cada opção?
                 switch (optionMenu)
                 {
                     case 1:
