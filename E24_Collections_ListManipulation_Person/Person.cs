@@ -14,6 +14,7 @@ namespace E24_Collections_ListManipulation_Person
     internal class Person
     {
 
+        // Todo MRS: para simplificar, tiha sugerido somente id e nome.
         #region Propriedades
         internal int Id { get; set; }
         internal string Name { get; set; }
@@ -35,7 +36,7 @@ namespace E24_Collections_ListManipulation_Person
 
         }
 
-        
+        // Todo MRS: implementar o id automático e sequencial pelo construtor.
         internal Person(int id, string name, string phone, string nif, string city)
         {
 
@@ -79,6 +80,7 @@ namespace E24_Collections_ListManipulation_Person
             Utility.WriteMessage("City: ", "\n", "");
             city = Console.ReadLine();
 
+            // Todo MRS: implementar o id automático e sequencial pelo construtor.
             newId = list.Count + 1;
 
             Person person01 = new Person(newId, name, phone, nif, city);
@@ -107,6 +109,7 @@ namespace E24_Collections_ListManipulation_Person
             Utility.WriteMessage("City: ", "\n", "");
             city = Console.ReadLine();
 
+            // Todo MRS: podias ter criado um método para o try.parse.
             Utility.WriteMessage("Position: ", "\n", "");
             position = Convert.ToInt32(Console.ReadLine());
 
